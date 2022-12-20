@@ -16,6 +16,7 @@ while (true) {
         })
         let data = await auth.json();
         fs.writeFileSync('./logs/app.log', JSON.stringify(data));
+        console.log(data)
         let obj = fs.readFileSync('./logs/app.log', 'utf-8');
         let str = JSON.parse(obj);
         let bar = str.devices[0].gtw_p_water;
