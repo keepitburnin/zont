@@ -1,0 +1,21 @@
+{
+  "name": "zont",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon main.js"
+  },
+  "keywords": [],
+  "author": "Danila Poshinov, rol1d@yandex.ru",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "log4js": "^6.7.1",
+    "node-fetch": "^3.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
